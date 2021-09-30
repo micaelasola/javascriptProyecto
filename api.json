@@ -1,0 +1,38 @@
+[
+    {
+      "precio": 1500,
+      "id": 1,
+      "title": "Revolucion Solar",
+      "thumbnailUrl": "https://i.ibb.co/PYnZm5s/revolucion.png"
+    },
+    {
+      "precio": 1300,
+      "id": 2,
+      "title": "Carta Natal",
+      "thumbnailUrl": "https://i.ibb.co/C6VZ9ch/cartanatal.png"
+    },
+    {
+      "precio": 1100,
+      "id": 3,
+      "title": "Rueda Astrologica",
+      "thumbnailUrl": "https://i.ibb.co/kqtXN4y/rueda.png"
+    },
+    {
+      "precio": 2500,
+      "id": 4,
+      "title": "Tarot",
+      "thumbnailUrl": "https://i.ibb.co/QYD4jLG/tarot.jpg"
+    },
+    {
+      "precio": 3000,
+      "id": 5,
+      "title": "Tarot Personalizado",
+      "thumbnailUrl": "https://i.ibb.co/QYD4jLG/tarot.jpg"
+    },
+    {
+      "precio": 1500,
+      "id": 6,
+      "title": "Lectura de Parejas",
+      "thumbnailUrl": "https://i.ibb.co/hK6470f/pareja.png"
+    }
+  ]
