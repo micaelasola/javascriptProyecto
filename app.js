@@ -136,6 +136,12 @@ const pintarFooter = () => {
         carrito = {}
         pintarCarrito ()
     })
+
+    const procesarPedido = document.getElementById('procesar-pedido')
+    procesarPedido.addEventListener('click', (e) =>{
+       e.preventDefault();
+       window.location.href = "compra.html"
+    })
 }
 
 const btnAccion = e =>{
