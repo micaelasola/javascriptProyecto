@@ -1,16 +1,36 @@
+
 *{
   margin: 0;
-
+  padding: 0;
+  font-family: sans-serif;
 }
 
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: url(/img/fondoJS.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar{
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
 body {
-  background-color: #ffffff;
+  background-color: #3c3a3b;
   color: black;
   transition:  background-color 800ms ease;
 }
 
 .dark {
-  background-color: black;
+  background-color: #3c3a3b;
   color: #ffffff;
 }
 
@@ -23,6 +43,19 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.thead th{
+  color: white;
+}
+
+.template-carrito th, td{
+  color: white;
+}
+
+.tfoot td{
+  color: white;
+}
+
 
 .mdl-container{
   background: rgb(0, 0, 0, 0.3);

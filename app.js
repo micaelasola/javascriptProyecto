@@ -182,8 +182,8 @@ $(() => {
         $("#boton-dark-mode").hide()
         $("#boton-light-mode").show();
         $("body").css({
-                "background-color": "#17202A" ,
-                "color": "#FDFEFE" 
+                "background-color": "#3c3a3b" ,
+                "color": "#ddc796" 
         })
         //$("body").addClass("dark");
         localStorage.setItem("dark-mode", "dark")
@@ -193,8 +193,8 @@ $(() => {
         $("#boton-light-mode").hide();
         $("#boton-dark-mode").show();
         $("body").css({
-            "background-color": "#FDFEFE" ,
-            "color": "#17202A" 
+            "background-color": "#ddc796" ,
+            "color": "#3c3a3b" 
         })
         //$("body").removeClass("dark");
         localStorage.setItem("dark-mode", "light")
