@@ -1,11 +1,3 @@
-$('.checkbox').click(function(){
-    if($('input.checkbox').is(':checked')){
-        $('.theme').attr('href', 'light.css');
-    }else{
-        $('.theme').attr('href', 'dark.css');
-    }
-});
-
 
 const cards = document.getElementById('cards')
 const items = document.getElementById('items') //elementos del carrito
@@ -165,3 +157,47 @@ const btnAccion = e =>{
 
     e.stopPropagation()
 }
+
+let darkMode;
+
+if(localStorage.getItem("dark-mode")) {
+    darkMode = localStorage.getItem("dark-mode");
+} else {
+    darkMode = "light"
+}
+
+localStorage.setItem("dark-mode", darkMode);
+
+
+$(() => {
+    if(localStorage.getItem("dark-mode") == "dark") {
+        $("body").addClass("dark");
+        $("#boton-dark-mode").hide();
+        $("#boton-light-mode").show();
+    } else {
+        $("#boton-light-mode").hide();
+    }
+
+    $("#boton-dark-mode").click(() => {
+        $("#boton-dark-mode").hide()
+        $("#boton-light-mode").show();
+        $("body").css({
+                "background-color": "#17202A" ,
+                "color": "#FDFEFE" 
+        })
+        //$("body").addClass("dark");
+        localStorage.setItem("dark-mode", "dark")
+    })
+
+    $("#boton-light-mode").click(() => {
+        $("#boton-light-mode").hide();
+        $("#boton-dark-mode").show();
+        $("body").css({
+            "background-color": "#FDFEFE" ,
+            "color": "#17202A" 
+        })
+        //$("body").removeClass("dark");
+        localStorage.setItem("dark-mode", "light")
+    })
+
+})

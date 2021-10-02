@@ -16,6 +16,14 @@
 
 <body>
     <h1> Finaliza tu compra!</h1>
+
+    <div class="mdl-container">
+        <div class="mdl">
+            <h1>Gracias por comprar!</h1>
+            <p>Tu compra se ha realizado con exito</p>
+            <button class="btn btn-dark" id="close"> Salir </button>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col">
@@ -47,29 +55,8 @@
                             <input id="tarjeta" type="text" name="tarjeta" class="form-control">
                         </div>
                         <button type="submit" class="btn btn-warning fw-bold" id="validar-compra"> Validar Datos </button>
+                        <button class="btn btn-dark" id="open"> Finalizar compra </button>
                     </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <button type="submit" class="btn btn-primary fw-bold" id="aceptar-compra"> Finalizar Compra </button>
-
-    <div class="modal" tabindex="-1" id="ventana-modal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Gracias por comprar!/h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                </div>
-                <div class="modal-body">
-                    <p>Tu compra se realizó con exito!</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
-
                 </div>
             </div>
         </div>
