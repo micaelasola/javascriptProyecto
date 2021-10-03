@@ -34,14 +34,34 @@ body {
   color: #ffffff;
 }
 
-.dark th, td, h5, p{
-  color: #666666;
-}
 
 .nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+
+.content1{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+
+
+.content1 p{
+  color: #fff;
+  margin: 100px auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  line-height: 25px;
+}
+
+.dark th, td, h5, p{
+  color: #666666;
 }
 
 .thead th{
@@ -56,9 +76,53 @@ body {
   color: white;
 }
 
+#body{
+  font-family: 'Roboto', sans-serif;
+  background: rgb(113,118,140);
+  background: radial-gradient(circle, rgba(113,118,140,1) 0%, rgba(110,112,125,1) 0%, rgba(221,199,150,1) 100%);
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#h1{
+  text-align: center;
+  font-weight: bold;
+}
+
+form{
+  background: #fff;
+  padding: 40px 10px;
+  box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+}
+
+
+.form{
+  width: 600px;
+  margin: auto;
+}
+
+
+input{
+  background: none;
+  color: #c6c6c6;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid var(--colorTextos);
+}
+
+input:focus{
+  outline: none;
+  color: rgba(94, 93, 93);
+}
 
 .mdl-container{
-  background: rgb(0, 0, 0, 0.3);
   position: fixed;
   height: 100vh;
   width: 100vw;

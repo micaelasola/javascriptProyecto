@@ -14,8 +14,7 @@
 
 </head>
 
-<body>
-    <h1> Finaliza tu compra!</h1>
+<body id="body">
 
     <div class="mdl-container">
         <div class="mdl">
@@ -24,37 +23,41 @@
             <button class="btn btn-dark" id="close"> Salir </button>
         </div>
     </div>
-    <div class="container">
+    <div class="container form">
+        <h1 id="h1">Realiza tu compra</h1>
         <div class="row">
             <div class="col">
                 <div class="shadow-lg p-3 mb-5 mt-4 bg-body rounded">
                     <form class="row g-3 needs-validation" novalidate>
+
                         <div class="col-md-4">
                             <label for="nombre" class="form-label">Nombre y Apellido</label>
                             <input id="nombre" type="text" name="nombre" class="form-control" required>
                         </div>
 
                         <div class="col-md-4">
-                            <label for="tarjeta" class="form-label">Direccion de Envio</label>
-                            <input id="tarjeta" type="text" name="tarjeta" class="form-control" required>
+                            <label for="tarjeta" class="form-label">Tarjeta de Credito</label>
+                            <input id="tarjeta" type="number" name="tarjeta" class="form-control" required>
                         </div>
 
-                        <div class="col-md-3">
-                            <label for="tarjeta" class="form-label">Provincia</label>
-                            <select name="provincia" id="provincia" class="form-select">
-                                <option selected disabled value="">Seleccionar...</option>
-                                <option>Buenos Aires</option>
-                                <option>Cordoba</option>
-                                <option>Santa Fe</option>
-                                <option>Rio Negro</option>
+                        <div class="col-md-4">
+                            <label for="cuotas" class="form-label">Selecciona las cuotas</label>
+                            <select name="cuotas" id="cuotas" class="form-select">
+                                <option selected disabled value="">Cuotas...</option>
+                                <option>3 sin interes</option>
+                                <option>6 sin interes</option>
+                                <option>8 sin interes</option>
                             </select>
                         </div>
 
                         <div class="col-md-4">
-                            <label for="tarjeta" class="form-label">Tarjeta de Credito</label>
-                            <input id="tarjeta" type="text" name="tarjeta" class="form-control">
+                            <label for="email" class="form-label">Email</label>
+                            <input id="email" type="email" name="email" class="form-control">
                         </div>
-                        <button type="submit" class="btn btn-warning fw-bold" id="validar-compra"> Validar Datos </button>
+
+
+                        <button type="submit" class="btn btn-warning fw-bold" id="validar-compra"> Validar Datos
+                        </button>
                         <button class="btn btn-dark" id="open"> Finalizar compra </button>
                     </form>
                 </div>
