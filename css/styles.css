@@ -13,6 +13,39 @@
   background-position: center;
 }
 
+
+.wrapper{
+  width: 90%;
+  margin: 0 auto;
+}
+
+header{
+  width: 100%;
+  height: 100px;
+  background: #ddc796;
+  position: fixed;
+}
+
+.logo{
+  width: 30%;
+  float: left;
+  text-align: left;
+  line-height: 100px;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    float: right;
+    
+    
+}
+
+
 .navbar{
   width: 85%;
   margin: auto;
@@ -31,7 +64,7 @@ body {
 
 .dark {
   background-color: #3c3a3b;
-  color: #3c3a3b;
+  color: #ffffff;
 }
 
 
@@ -61,19 +94,19 @@ body {
 }
 
 .dark th, td, h5, p{
-  color: #000;
+  color: #666666;
 }
 
 .thead th{
-  color: #000;
+  color: white;
 }
 
 .template-carrito th, td{
-  color: #000;
+  color: white;
 }
 
 .tfoot td{
-  color: #000;
+  color: white;
 }
 
 #body{
