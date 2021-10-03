@@ -31,7 +31,7 @@ body {
 
 .dark {
   background-color: #3c3a3b;
-  color: #ffffff;
+  color: #3c3a3b;
 }
 
 
@@ -61,19 +61,19 @@ body {
 }
 
 .dark th, td, h5, p{
-  color: #666666;
+  color: #000;
 }
 
 .thead th{
-  color: white;
+  color: #000;
 }
 
 .template-carrito th, td{
-  color: white;
+  color: #000;
 }
 
 .tfoot td{
-  color: white;
+  color: #000;
 }
 
 #body{
