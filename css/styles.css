@@ -5,14 +5,16 @@
   font-family: sans-serif;
 }
 
-.banner{
-  width: 100%;
-  height: 100vh;
-  background-image: url(/img/fondoJS.png);
-  background-size: cover;
-  background-position: center;
+a{
+  font-family: 'Birthstone', sans-serif;
+  font-weight: bold;
+  font-size: larger;
 }
 
+h2{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
 
 .wrapper{
   width: 90%;
@@ -39,22 +41,6 @@ header{
   font-family: 'Roboto', sans-serif;
 }
 
-nav{
-    float: right;
-    
-    
-}
-
-
-.navbar{
-  width: 85%;
-  margin: auto;
-  padding: 35px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 
 body {
   background-color: #3c3a3b;
@@ -64,7 +50,7 @@ body {
 
 .dark {
   background-color: #3c3a3b;
-  color: #ffffff;
+  color: #666;
 }
 
 
@@ -81,12 +67,12 @@ body {
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
-  color: #fff;
+  color: #666;
 }
 
 
 .content1 p{
-  color: #fff;
+  color: #666;
   margin: 100px auto;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
@@ -98,15 +84,15 @@ body {
 }
 
 .thead th{
-  color: white;
+  color: #000;
 }
 
 .template-carrito th, td{
-  color: white;
+  color: #000;
 }
 
 .tfoot td{
-  color: white;
+  color: #000;
 }
 
 #body{
@@ -181,3 +167,17 @@ input:focus{
   padding: 50px 50px;
 }
 
+.footer{
+  background-color: #ddc796;
+  color: #000;
+  height: 100px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 15px;
+  
+}
+
+.footer a{
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+}
